@@ -1,0 +1,121 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: pink;
+    margin-left: 10px;
+    margin-right: 15px;
+   
+}
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+ 
+    background-color: rgb(188, 168, 208);
+
+    position: fixed;
+    z-index: 70;
+
+}
+ nav ul {
+   display: flex;
+   justify-content: space-around;
+   padding: 0px 15px;
+   font-family: monospace;
+   flex-wrap: wrap;
+font-size: 14px;
+list-style-type:none;
+text-decoration: none;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+header img {
+  width: 100px;
+  margin-right: 400px ;
+}
+section img {
+    width: 100;
+}
+header figure {
+    width: 25%;
+    margin: 0px;
+}
+figure img {
+    width: 100%;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 2em;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.centered h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow:2px 2px rgb(50, 31, 17) ;
+    color: #f97ca0;
+}
+button {
+    border-radius: 30px;
+ 
+    background: rgba(172, 201, 237, 0.578);
+    padding: 15px 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.mare {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+footer {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: blanchedalmond;
+    background-image: url('/img/foaie.jpg');
+    padding: 10px;
+    
+}
+footer li {
+    display: inline-flex; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 15px;
+
+}
+.htwo {
+    background-color: rgb(116, 225, 189);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(17, 46, 53);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(188, 168, 208);
+
+}
+article ul {
+    background-color: rgb(254, 250, 160);
+    font-family:cursive;
+    border-radius: 40px;
+    box-shadow: 3px 3px #72501d;
+}
+footer input {
+    padding: 10px;
+    border-radius: 20px;
+}
+ article p {
+    background-color: rgba(121, 121, 174, 0.501);
+    border-radius: 10px;
+    padding: 5px;
+}
