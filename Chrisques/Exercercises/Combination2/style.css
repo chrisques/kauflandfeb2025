@@ -1,0 +1,23 @@
+/* Descendents */
+div p{
+    color: rgb(254, 216, 48);
+    background: gray
+    ;
+}
+/* Direct son */
+div >p {
+    background: rgb(76, 132, 189);
+}
+ /* Adjacent element */
+ h1 + div {
+     background:purple;
+ }
+  /* General brothers*/
+   div ~ p {
+
+   font: size 1.5em; 
+background: cyan;}
+/* Apply diff styles for diff selectors */
+div, p ,a {
+    background: lightcoral;
+}

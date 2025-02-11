@@ -1,0 +1,20 @@
+/* Display types*/
+div {
+    display: inline-block;
+    background: blue;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+}
+a { display: inline-block;
+    background: lightcoral;
+    width: 200px;
+    height: 100px;
+    margin: 20px; 
+}
+button {
+    background: palegreen;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}

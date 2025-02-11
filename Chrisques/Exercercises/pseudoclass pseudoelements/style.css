@@ -1,0 +1,30 @@
+/* Pseudoclass */
+p:hover {
+    color: blueviolet;
+    font-size: 2em;
+}
+div p:nth-child(3) {
+    font-weight: bold;
+}
+    div p:nth-child(4)
+    {
+        font-weight: bold;
+        color: rgb(59, 135, 109);
+    }
+    /* Pseudoelements */
+    p::first-line {
+        color: blueviolet;
+    }
+    p::first-letter {
+        font-size: 2em;
+        color: brown;
+    }
+    p::before {
+        content: "😎😎 ";
+    }
+    p::after {
+        content: "❤️";
+    }
+    ::placeholder {
+        color: palevioletred;
+    }

@@ -1,0 +1,16 @@
+/* COmbinadores  descendientes*/
+div p{
+    color: rgb(14, 63, 14);
+}
+ /* Direction */
+  div > div {
+    background: rgb(147, 182, 153);
+  }
+  /* Elemente adiacente */
+  div+ section {
+     background: rgb(226, 130, 119);
+  }
+/* Generalsiblings */
+div~ p{
+    color: red;
+}
